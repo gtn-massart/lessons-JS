@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.box {
+  padding: 20px;
+  max-width: 500px;
+  margin: 100px auto 0;
+  font-size: 20px;
+  border-radius: 3px;
+  line-height: 1.4;
+  background-color: crimson;
+  border: 10px solid lightpink;
+  /* box-sizing: border-box; */
+}
+
+.container {
+  max-width: 400px;
+  max-height: 700px;
+  margin: 0 auto;
+  overflow: auto; 
+  padding: 30px; 
+  border: 10px solid red;
+  /* box-sizing: border-box; */
+}
+
+/* 
+A. scrollWidth sans border-box : 
+400(max-width) + 60(padding l et r) - (17)largeur de la scrollbarY = 443px  
+*/
+
+/* Si box-sizing: border-box, max-width inclus les bordures + le padding. */
+/* Donc scrollWidth, qui ne retourne que la largeur du contenu + le padding s'en voit réduit. */
+
+
+/*
+B. clientWidth sans border-box : 
+400(max-width) + 60(padding l et r) - 17(largeur de la scrollbarY) = 443px
+*/
+
+/*
+  Si box-sizing: border-box, même combat que plus haut, les bordures et le padding sont compris dans le calcul de la largeur max, rendant le contenu + padding plus petit.
+*/
+
+
+

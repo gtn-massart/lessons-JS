@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cours JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="slider">
+        <img class="slide-img active" src="ressources/image-1.jpg" alt="cat">
+        <img class="slide-img" src="ressources/image-2.jpg" alt="cat">
+        <img class="slide-img" src="ressources/image-3.jpg" alt="cat">
+        <button 
+        data-action="-1"
+        class="control-btn previous-btn">
+            <img src="ressources/left-arrow.svg" alt="left arrow">
+        </button>
+        <button 
+        data-action="1"
+        class="control-btn next-btn">
+            <img src="ressources/right-arrow.svg" alt="right arrow">
+        </button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

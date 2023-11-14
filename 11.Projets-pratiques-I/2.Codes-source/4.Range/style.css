@@ -1,0 +1,37 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f1f1f1;
+  color: #111;
+  padding-top: 75px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  border: 1px solid #111;
+  padding: 24px;
+  border-radius: 5px;
+}
+.input-group {
+  margin-bottom: 25px;
+}
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.range-input {
+  width: 100%;
+  cursor: pointer;
+}
+
+.emoji-value {
+  text-align: center;
+  font-size: 60px;
+}

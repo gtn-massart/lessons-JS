@@ -1,0 +1,19 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 75px;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  background-color: #111;
+  color: #f1f1f1;
+  display: inline-block;
+  padding: 24px;
+}

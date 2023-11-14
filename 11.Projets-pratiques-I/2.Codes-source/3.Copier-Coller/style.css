@@ -1,0 +1,37 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Roboto, Helvetica, sans-serif;
+  padding-top: 75px;
+  background-color: #111;
+}
+
+
+.card {
+  max-width: 325px;
+  margin: 0 auto;
+  background-color: #f1f1f1;
+  border-radius: 20px;
+  padding: 34px 20px;
+  position: relative;
+}
+.copy-clipboard-btn {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  padding: 6px 14px;
+  border: 1px solid #1111118b;
+  border-radius: 9999px;
+  cursor: pointer;
+}
+.copy-clipboard-btn:hover {
+  background-color: #ffffff;
+}

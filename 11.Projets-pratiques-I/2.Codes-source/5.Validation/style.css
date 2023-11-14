@@ -1,0 +1,66 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f1f1f1;
+  padding-top: 200px;
+}
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.input-group {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.validation {
+  color: red;
+  display: none;
+}
+
+.animated-input {
+  width: 100%;
+  padding: 25px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+label {
+  font-size: 25px;
+  position: absolute;
+  color: #333;
+  cursor: pointer;
+  top: 50%;
+  transform: translateY(-50%) translateX(20px);
+  transition: transform 0.3s ease-out;
+}
+
+/* Animation */
+
+.input-group:focus-within label,
+.input-group.filled-input label {
+  transform: translateY(-80px) translateX(6px);
+}
+
+.input-group:focus-within .animated-input,
+.input-group.filled-input .animated-input {
+  border: 1px solid #111;
+}
+
+.input-group .animated-input.error {
+  /* grosse sélection pour battre celle du dessus */
+  border: 1px solid red;
+}
+.active {
+  display: block;
+}

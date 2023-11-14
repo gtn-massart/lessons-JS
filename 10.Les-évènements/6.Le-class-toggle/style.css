@@ -1,0 +1,22 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #111;
+  padding-top: 75px;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: violet;
+  margin: 0 auto;
+  transition: background-color 0.4s ease-out;
+}
+.box.active {
+  background-color: green;
+}

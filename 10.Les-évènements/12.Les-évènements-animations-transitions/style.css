@@ -1,0 +1,29 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 75px;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  background-color: crimson;
+  animation: spin 1s ease-out;
+  transition: background-color 0.4s ease-out;
+}
+
+/* @keyframes spin {
+  to {
+    transform: rotate(360deg)
+  }
+} */
+
+.box:hover {
+  background-color: green;
+}

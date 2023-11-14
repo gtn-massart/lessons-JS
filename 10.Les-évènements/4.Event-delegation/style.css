@@ -1,0 +1,37 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #111;
+  padding-top: 75px;
+}
+
+.grid {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto 50px;
+  border: 5px solid #f1f1f1;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-auto-rows: repeat(3,1fr);
+}
+.cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: crimson;
+  font-size: 30px;
+  color: #f1f1f1;
+  border: 1px solid #111;
+  cursor: pointer;
+}
+
+.txt-info {
+  text-align: center;
+  color: #f1f1f1;
+  font-size: 50px;
+}

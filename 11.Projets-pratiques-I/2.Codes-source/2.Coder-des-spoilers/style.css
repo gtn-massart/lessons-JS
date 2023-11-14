@@ -1,0 +1,66 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 75px 10px 125px;
+}
+h1 {
+    font-weight: 900;
+    font-size: 42px;
+    margin-bottom: 25px;
+}
+p {
+    font-size: 18px;
+    color: #111;
+}
+/* Text hover spoiler */
+.hover-spoiler {
+    background-color: #111;
+    color: transparent;
+    cursor: pointer;
+    user-select: none;
+}
+.hover-spoiler:hover {
+    background-color: transparent;
+    color: #111;
+    user-select: auto;
+}
+
+/* Image hover spoiler */
+
+.img-spoiler-container {
+    margin: 25px 0 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    overflow: hidden;
+    display: inline-block;
+}
+img {
+    filter: blur(15px);
+}
+.img-spoiler-container:hover img {
+    filter: blur(0px)
+}
+
+/* JS Click Spoiler */
+
+.js-spoiler {
+    background-color: #111;
+    color: transparent;
+    cursor: pointer;
+    user-select: none;
+}
+.js-spoiler-revealed {
+    background-color: transparent;
+    color: #111;
+    user-select: auto;
+}

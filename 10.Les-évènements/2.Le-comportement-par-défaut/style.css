@@ -1,0 +1,28 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  text-align: center;
+  padding: 14px 0;
+}
+nav a {
+  margin: 0 5px;
+  font-size: 18px;
+}
+form {
+  max-width: 300px;
+  margin: 50px auto;
+}
+input, button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+}
