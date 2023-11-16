@@ -9,3 +9,22 @@
 
     Testons tout ça...
 */
+
+// const links = document.querySelectorAll('a');
+
+// links.forEach(link => link.addEventListener('click', handleClick));
+
+// function handleClick(e) {
+//     e.preventDefault();
+//     console.log('Tu ne bouges pas');
+// }
+
+
+const form = document.querySelector('form');
+
+form.addEventListener('submit', handleSubmit );
+
+function handleSubmit(e) {
+    e.preventDefault();
+    console.log("Je n'envoie rien");
+}
