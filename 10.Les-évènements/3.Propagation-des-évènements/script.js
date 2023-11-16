@@ -9,8 +9,30 @@
 */
 
 
+const container1 = document.querySelector('.container-1');
+const container2 = document.querySelector('.container-2');
+const container3 = document.querySelector('.container-3');
+
+
+container1.addEventListener('click', handleClick1);
+
+function handleClick1(e) {
+    console.log(e.target, 'CONTAINER 1');
+}
 
 
 
+container2.addEventListener('click', handleClick2);
+
+function handleClick2(e) {
+    console.log(e.target, 'CONTAINER 2');
+}
 
 
+
+container3.addEventListener('click', handleClick3);
+
+function handleClick3(e) {
+    e.stopPropagation();
+    console.log(e.target, 'CONTAINER 3');
+}
