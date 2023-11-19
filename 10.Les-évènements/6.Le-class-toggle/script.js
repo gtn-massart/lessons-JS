@@ -6,6 +6,13 @@
   C'est la porte ouverte à une infinité d'animations et d'interactions possibles.
 */
 
+const box = document.querySelector('.box');
+
+box.addEventListener('click', toggleAnimation);
+
+function toggleAnimation(e) {
+  e.target.classList.toggle('active')
+}
 
 
 /*
@@ -15,6 +22,7 @@
   Il existe : 
   - add(classe)
   - remove(classe)
+  - contains(classe)
   - toggle(classe) // classe supprimée si présente, rajoutée si absente
   - replace(classeÀRemplacer, classeÀRajouter)
 
