@@ -1,7 +1,7 @@
 const jsSpoilers = document.querySelectorAll('.js-spoiler');
 
-jsSpoilers.forEach(spoiler => spoiler.addEventListener('click', toggleSpolier));
+jsSpoilers.forEach(spoiler => spoiler.addEventListener('click', toggleSpoiler));
 
-function toggleSpolier(e) {
+function toggleSpoiler(e) {
   e.target.classList.add("js-spoiler-revealed");
 }
