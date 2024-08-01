@@ -22,9 +22,9 @@ console.log(dividedBy10(100));
 /* 
     2. this weather
 
-    Créez une méthode getFahrenheit () permettant de retourner la température de l'objet weather ci-dessous en utilisant le mot clé this.
+    Créez une méthode getFahrenheit() permettant de retourner la température de l'objet weather ci-dessous en utilisant le mot clé this.
 
-    Formule celsius - fahrenheit  :  (celsius * 1.8) + 32
+    Formule celsius → fahrenheit  :  (celsius * 1.8) + 32
 */
 
 const weather = {
