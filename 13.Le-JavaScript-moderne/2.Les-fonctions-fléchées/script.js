@@ -25,7 +25,9 @@
     // arr.forEach(fruit => console.log(fruit))
     
     // fonction classique
-    // arr.forEach(function(fruit){console.log(fruit)})
+    // arr.forEach(function(fruit){
+    //     console.log(fruit)
+    // });
     
     // impossible de déclarer une fonction fléchée nommée, on doit l'affecter à une variable sous la forme d'une expression de fonction
 
@@ -38,10 +40,10 @@
 
     this est créé au moment de l'exécution des fonctions classiques, lors de la création d'un contexte d'exécution de fonction, FEC(function execution context).
 
-    Une propriété du contexte est créée et elle pointe vers l'objet qui a appelé cette fonction ou vers l'objet global si elle n'est pas explicitement appelée par un objet.  
+    Une propriété de l'environment record de cette fonction est créée et elle pointe vers l'objet qui a appelé cette fonction ou vers l'objet global si elle n'est pas explicitement appelée par un objet.  
 
     Quant aux fonctions fléchées, le contexte d'exécution créé lors de leur exécution ne crée tout simplement pas de this.
-    Elles vont donc soit utiliser le this d'une fonction fléchée parent, soit utiliser le this global, c'est-à-dire l'objet window.
+    Elles vont donc soit utiliser le this d'une fonction fléchée parente, soit utiliser le this global, c'est-à-dire l'objet window.
 */
 
 // const obj = {
@@ -63,6 +65,8 @@
 // }
 
 // obj.foo()
+// console.log(obj.bar());
+
 
 
 /* 
