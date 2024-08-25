@@ -15,16 +15,20 @@
 const a = 5;
 const b = 10;
 
+console.log("L'addition de a plus b est égale à ", a + b);
+console.log(`L'addition de a plus b est égale à ${a+b}`);
+
+
 
 /* Saut de ligne */
 
-// console.log("Voici du texte \n qui passe à la ligne");
-// console.log(`Voici du texte 
-// qui passe à la ligne`);
+console.log("Voici du texte \n qui passe à la ligne");
+console.log(`Voici du texte 
+qui passe à la ligne`);
 
 
 /* Utilisation de l'expression retournée par une fonction. */
 function foo(){
   return "abc";
 }
-// console.log(`L'alphabet commence par : ${foo()}`);
+ console.log(`L'alphabet commence par : ${foo()}`);
