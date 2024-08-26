@@ -2,18 +2,23 @@
 
 // https://api.thecatapi.com/v1/images/search
 
-function getCatImg(url) {
 
-  fetch(url)
-  .then(response => {
-    console.log(response)
-    return response.json()    
-  })
-  .then(data => {
-    console.log(data);
-    createImg(data)
-  })
-}
+
+fetch("https://api.thecatapi.com/v1/images/search")
+.then(response => {
+  if(!response.ok) throw Error(`${response.status}`)
+  console.log(response)
+  return response.json()    
+})
+.then(data => {
+  console.log(data);
+  createImg(data)
+})
+.catch(error => {
+  document.querySelector(".error-msg").textContent = `Error : ${error.message}`
+  console.dir(error)
+});
+
 
 function createImg(imgData) {
   const img = document.createElement("img")
@@ -21,4 +26,3 @@ function createImg(imgData) {
   document.body.appendChild(img)   
 }
 
-getCatImg("https://api.thecatapi.com/v1/images/search")
