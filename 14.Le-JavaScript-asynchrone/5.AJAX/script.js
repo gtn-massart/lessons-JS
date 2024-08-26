@@ -10,3 +10,25 @@
     Voici l'ancienne façon de faire, on utilise aujourd'hui la méthode fetch() qui est plus simple à utiliser mais qui utilise XMLHttpRequest sous le capot.
 */
 
+// https://api.thecatapi.com/v1/images/search
+
+function getCatImage(url, callback) {
+    const xhr = new XMLHttpRequest()
+    console.log(xhr);
+    
+    xhr.open("GET", url, true)
+    xhr.responseType = "json"
+
+    xhr.addEventListener("load", handleLoad)
+    function handleLoad() {
+        callback(xhr.response)
+    }
+    xhr.send()
+}
+
+getCatImage("https://api.thecatapi.com/v1/images/search", data => {
+    console.log(data);
+    const img = document.createElement("img")
+    img.src = data[0].url 
+    document.body.appendChild(img)    
+})
