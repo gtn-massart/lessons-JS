@@ -15,6 +15,10 @@
     Exécute une callback ou bout d'un certain délai en millisecondes.
 */
 
+setTimeout(() => { console.log("Log au bout de 2 secondes")}, 2000)
+
+const timeoutID = setTimeout(() => { console.log("Log au bout de 3 secondes")}, 3000)
+clearTimeout(timeoutID)
 
 
 /* 
@@ -25,3 +29,5 @@
     Fonctionnement : Exécute une fonction callback tous les x millisecondes définies par le second argument.
 */
 
+const intervalID = setInterval(() => { console.log("Log toutes les 2 secondes")}, 2000)
+clearTimeout(intervalID)
