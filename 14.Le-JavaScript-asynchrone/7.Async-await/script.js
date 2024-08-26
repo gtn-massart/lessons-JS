@@ -7,18 +7,18 @@
    Cela va nous permettre de potentiellement enchaîner des .then() à cette dernière.
 */
 
-// async function foo(){
-//   return "Hello World"
-// }
-// console.log(foo()) // promesse fulfiffed
-// // équivalent à 
-// function foo(){
-//   return new Promise((resolve) => resolve("Hello world"))
-// }
-// console.log(foo())
+async function foo(){
+  return "Hello World"
+}
+console.log(foo()) // promesse fulfiffed
+// équivalent à 
+function foo(){
+  return new Promise((resolve) => resolve("Hello world"))
+}
+console.log(foo())
 
-// // On peut donc enchaîner des .then à l'exécution de foo()
-// foo().then(val => console.log(val))
+// On peut donc enchaîner des .then à l'exécution de foo()
+foo().then(val => console.log(val))
 
 
 /*
@@ -29,7 +29,16 @@
     La valeur de await devient la valeur de résolution ou de rejet de la promesse.
 */
 
-
-
-
+async function getData() {
+    const response = await new Promise(resolve => {
+        setTimeout(() => {
+            resolve("API RESPONSE !")         
+        }, 1000)
+    })
+    console.log(response);    
+}
+getData()
+console.log("Reste du script...");
+console.log("Reste du script...");
+console.log("Reste du script...");
 
