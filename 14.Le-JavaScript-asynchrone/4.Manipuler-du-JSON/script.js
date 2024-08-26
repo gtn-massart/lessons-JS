@@ -30,6 +30,8 @@ const JSONTextFormat = '{"userName" : "Paul","age": 25}'
 
 // La méthode JSON.parse() analyse du texte JSON et retourne l'objet JS correspondant.
 
+console.log(JSON.parse(JSONTextFormat));
+
 
 // La méthode JSON.stringify() fait l'inverse, elle transforme un objet JS en JSON.
 const cat = {
@@ -38,6 +40,7 @@ const cat = {
   weight: 4 
 }
 
+console.log(JSON.stringify(cat));
 
 
 
