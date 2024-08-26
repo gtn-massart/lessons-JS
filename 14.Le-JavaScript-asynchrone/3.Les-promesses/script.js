@@ -13,3 +13,24 @@
 
   Si c'est un échec, on appelle reject qui nous permet d'exécuter une méthode catch, elle aussi disponible dans le prototype des promesses.
 */
+
+const promise = new Promise((resolve, reject) => {
+  const calculation = 5 + 5
+  // resolve(calculation)
+  reject("Données non trouvées")
+})
+.then(value => {
+  console.log(value);
+  return value * 10  
+})
+.then(value => {
+  console.log(value);
+  return value * 55
+})
+.catch((e) => {
+  console.log(e)
+})
+.finally(() => {
+  console.log("Je suis le 'finally' qui sera toujours exécuté");  
+})
+console.dir(promise)  // → ici promise montre la dernière promesse créée (promiseResult: 5500)
