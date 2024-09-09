@@ -11,8 +11,43 @@
 
 */
 
+const arr = ['a', 'b', 'c']
+console.log(arr);
 
 
 /*
     On peut créer une chaîne de prototypes soi-même.
 */
+
+function Human(arm, leg){
+  this.arm = arm
+  this.leg = leg
+}
+Human.prototype.walk = function(){
+  console.log("Walk");  
+}
+Human.prototype.think = function(){
+  console.log("think");  
+}
+const human1 = new Human(2, 2)
+console.log(human1);
+
+
+function Italian(name) {
+  this.name = name
+}
+
+Object.setPrototypeOf(Italian.prototype, Human.prototype)
+
+Italian.prototype.lang = "Italian"
+Italian.prototype.cookingPasta = function(){
+  console.log("🍝");  
+}
+Italian.prototype.cookingPizza = function(){
+  console.log("🍕");  
+}
+const italian1 = new Italian("Giovanni Madazzo")
+console.log(italian1);
+
+
+console.dir(document.querySelector("h1"));
