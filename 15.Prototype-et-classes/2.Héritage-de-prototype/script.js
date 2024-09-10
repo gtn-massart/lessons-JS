@@ -34,6 +34,7 @@ console.log(human1);
 
 
 function Italian(name) {
+  Human.call(this, arm, leg)
   this.name = name
 }
 
