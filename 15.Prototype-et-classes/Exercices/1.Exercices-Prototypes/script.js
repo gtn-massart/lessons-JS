@@ -36,3 +36,9 @@ function Piano(type, price){
   this.type = type;
   this.price = price;
 }
+
+Object.setPrototypeOf(Piano.prototype, Instrument.prototype)
+
+const yamaha = new Piano("semi-queue", 35000)
+console.log(yamaha);
+yamaha.play()
