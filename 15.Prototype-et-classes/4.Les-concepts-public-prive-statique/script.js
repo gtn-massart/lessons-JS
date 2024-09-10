@@ -14,3 +14,29 @@
     3. Les champs privés : Ils sont seulement utilisables dans les méthodes d'une instance.
 */
 
+class Course {
+    static author = "John Doe"
+    school = "My School"
+    #privatePrice = 55
+    constructor(name, price) {
+        this.name = name
+        this.price = price
+        //this.school = "My School"
+        this.foo = function(){
+            return this.#privatePrice;       
+        }      
+    }
+    #test() {
+        console.log("Private method");        
+    }
+    getPrivate(){
+        this.#test()
+        return this.#privatePrice;        
+    }
+}
+console.log(Course);
+
+const JSCourse = new Course("JS AZ", 40)
+console.log(JSCourse);
+console.log(JSCourse.getPrivate());
+console.log(JSCourse.foo());
