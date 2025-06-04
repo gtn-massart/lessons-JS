@@ -1,12 +1,12 @@
 /* 
-    Une expression est une unité de code valide qui est résolue en une valeur(number, string, boolean, object, etc...) par votre ordinateur.
+    Une expression est une unité de code valide qui est résolue en une valeur(number, string, boolean, object, etc...) par l'ordinateur.
     Une expression peut être un calcul, une comparaison ou un simple morceau de code "abc".
 
     80 + 60       // Calcul évalué à 140 
     50 === 50     // cette comparaison(expression) retourne true
     "abc"         // Code évalué par votre machine en "abc"(chaîne de caractères)
 
-    Si vous pouvez le console.log(), c'est une expression.
+    Si on peut le console.log(), c'est une expression.
     Si ça retourne une erreur, c'est une instruction.
 */
 
@@ -46,10 +46,10 @@ if(50 > 10) {
 }
 
 // Déclaration de function 
-function foo() {
+function foo2() {
     return 5 * 5;
 }
-console.log(foo());
+console.log(foo2());
 
 // Déclaration d'une constante
 const userName = "Gaëtan";

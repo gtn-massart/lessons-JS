@@ -50,9 +50,9 @@ console.log(dog.name);
 console.log(dog[10]);
 
 /* 
-    3. Form raccourcie des méthodes.
+    3. Forme raccourcie des méthodes.
 
-    On peut utiliser des fonctions classiques et les fonctions fléchées dans les objets, voyons ensemble les différentes syntaxes.
+    On peut utiliser des fonctions classiques et les fonctions fléchées dans les objets, voyons les différentes syntaxes.
 */
 
 const robot = {
@@ -104,7 +104,7 @@ console.log(fruits);
 /* 
     5. Les fonctions sont des objets.
 
-    En JavaScript, on dit que les fonctions sont des first-class objets, car elles peuvent être appelées, passées à d'autres fonctions(paramètres-arguments), et quelles contiennent aussi des propriétés.
+    En JavaScript, on dit que les fonctions sont des first-class objets, car elles peuvent être appelées, passées à d'autres fonctions(paramètres-arguments), et qu'elles contiennent aussi des propriétés.
     Les fonctions sont des objets créés à partir du constructeur Function.
 
 */

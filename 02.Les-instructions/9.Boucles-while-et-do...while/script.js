@@ -3,7 +3,7 @@
 
     La boucle while exécute une instruction tant qu'une expression est truthy.
     
-    Attention, si vous avez l'auto-save d'activé, cela peut provoquer une boucle infinie qui fait bugger votre navigateur.
+    Attention, si on a l'auto-save d'activé, cela peut provoquer une boucle infinie qui fait bugger le navigateur.
 */
 
 let engineTemperature = 20;

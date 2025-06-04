@@ -2,7 +2,7 @@
     Une variable est le nom d'un emplacement dans la mémoire de votre ordinateur permettant de stocker des valeurs et de les utiliser dans le code. 
 */
 
-/* ⚠️ Le signe = est là pour ASSIGNER une valeur à la variable et non pour démontrer un égalité  */
+/* ⚠️ Le signe = est là pour ASSIGNER une valeur à la variable et non pour démontrer une égalité  */
 /* ⚠️  Le nom d'une variable doit être EXPLICITE, COMPRÉHENSIBLE et EN ANGLAIS pour une meilleure maintenabilité */
 
 /* *** let *** */

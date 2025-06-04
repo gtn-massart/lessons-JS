@@ -10,7 +10,7 @@ if(nb1 == nb2) {
     console.log("Instruction exécutée");
 }
 
-// ↓ si nb1 est égale en type et valeur à nb2
+// ↓ si nb1 est égale en type ET valeur à nb2
 if(nb1 === nb2) {
     console.log("Instruction non exécutée");
 }

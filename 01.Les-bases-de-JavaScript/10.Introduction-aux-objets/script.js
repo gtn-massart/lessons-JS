@@ -15,7 +15,7 @@ const store = {
   rent: 3500
 }
 
-// On accède aux valeurs grâce à deux notations, la dot et la bracket notation
+// On accède aux valeurs grâce à deux notations, la dot notation et la bracket notation
 
 // dot notation
 console.log(store.customers);
@@ -30,8 +30,6 @@ console.log(store.turnover);
 
 
 // Imbrication d'objets
-
-// C'est assez complexe quand on débute de s'y retrouver, pour l'instant ne vous posez pas trop de question, mais appréciez juste la syntaxe, et tentez de retrouver des valeurs et d'exécuter des fonctions. 
 
 const player = {
   spells: {
@@ -65,6 +63,6 @@ console.log(player.bag[0].name);  //bow
 console.log(player.bag.find(element => element.name === "shield"));  
 // {
 //   id: 2,
-// name: "shield",
-// description: "increases armor by 5"
+//   name: "shield",
+//   description: "increases armor by 5"
 // },

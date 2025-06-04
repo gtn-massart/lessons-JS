@@ -3,8 +3,6 @@
 
     Exemple : 5 + 10
     5 et 10 sont des opérandes, et + est un opérateur d'addition.
-
-    Découvrons les principaux opérateurs.
 */
 
 /* 
@@ -71,10 +69,4 @@
     -=, ex num -= 20 équivaut à num = num - 20 // -10
     *=, ex num *= 10 équivaut à num = num * 10 // 100
 
-*/
-
-
-
-/*
-    Il existe beaucoup d'opérateurs plus confidentiels, mais il n'est pas utile de tous les passer en revue à ce stade de votre apprentissage.
 */

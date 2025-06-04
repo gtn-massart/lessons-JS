@@ -55,7 +55,6 @@ console.log(typeof numberOfStars);
 
 /* 
     SYMBOL : Un symbole est un identifiant unique qui permet d’éviter des collisions entre des valeurs similaires.
-    À ce stade de votre apprentissage, il ne vous sert à rien de vous pencher dessus.
 */
 
 
@@ -85,8 +84,7 @@ console.log(norway.population);
 console.log(norway.addition(7, 3));
 
 /* 
-    FUNCTION : Les fonctions sont ... des objets ! Même si typeof nous donne le "type" function, ce sont bien des objets éxécutables. 
-    Nous verrons le fonctionnement des fonctions en détail dans ce cours, regardons simplement un exemple classique. 
+    FUNCTION : Les fonctions sont des objets! Même si typeof nous donne le "type" function, ce sont bien des objets éxécutables. 
 */
 function getSquare(a) { // (a) est un paramètre
     return a * a;
@@ -98,8 +96,7 @@ console.log(getSquare(5)); // (5) est un argument
 
 
 /* 
-    ARRAY : Les tableaux sont ... également des objets ! 
-    Mais alors, pourquoi les avoir créés ? Afin d'exploiter certaines propriétés et méthodes très pratiques, propres aux tableaux, comme la propriété length, ou les méthodes .map(), .filter(), etc ...
+    ARRAY : Les tableaux sont également des objets!
 */
 const salaries = [1580, 5000, 1800 , 3658, 1964, 4685];
                 // 0      1     2      3     4     5

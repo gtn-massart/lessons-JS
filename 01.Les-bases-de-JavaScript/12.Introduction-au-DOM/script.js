@@ -1,17 +1,17 @@
 /* 
   1. Le DOM
 
-  Le DOM, "Document Object Model", est la représentation sous forme d'objets des éléments d'une page web par votre navigateur.
+  Le DOM, "Document Object Model", est la représentation sous forme d'objets des éléments d'une page web par le navigateur.
 
   Le DOM n'est pas du JavaScript, c'est une interface utilisable par plusieurs langages.
   
   Néanmoins, c'est bien avec JavaScript qu'on utilise le DOM le plus souvent.
   
-  Toute votre page va donc être représentée sous la forme d'un grand arbre d'objets, c'est à dire des objets imbriqués les uns dans les autres.
+  Toute la page va donc être représentée sous la forme d'un grand arbre d'objets, c'est à dire des objets imbriqués les uns dans les autres.
 
   Ces objets contiennent des propriétés et des méthodes très pratiques.
 
-  Grâce à ces derniers, tout est possible en JavaScript, car chaque élément va pouvoir être sélectionné, modifié, supprimé, stylisé, cliqué, glissé, scrollé et j'en passe.
+  Grâce à ces derniers, tout est possible en JavaScript, car chaque élément va pouvoir être sélectionné, modifié, supprimé, stylisé, cliqué, glissé, scrollé ...
 
   JavaScript sert donc à manipuler des pages web, et même s'il a énormément évolué et peut aujourd'hui être utilisé dans beaucoup de domaines de programmation, il reste majoritairement employé sur le web pour remplir sa fonction originelle.
 

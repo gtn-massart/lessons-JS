@@ -6,7 +6,7 @@
 
     Les var retourneront néanmoins undefined, car elles sont analysées sans qu'on leur assigne de valeur...
     La valeur est assignée au moment où la ligne de la var se fait exécuter, après le hissage.
-    Cela fait partie des nombreux comportements problématiques des var, d'où la création de let&const.
+    Cela fait partie des nombreux comportements problématiques des var, d'où la création de let & const.
 
     Attention, il n'y a pas de hoisting avec les let & const. 
 */

@@ -22,27 +22,24 @@
     Il existe plusieurs manière de faire, avec le spread operator [...], {...}, Object.assign(), Array.from(), .concat()
 
     Néanmoins, toutes ces façons de faire vont créer une copie superficielle, c'est à dire que seulement les valeurs primitives seront copiées, les tableaux ou objets imbriqués seront toujours référencés.
-
-    Vous sentez le bug arriver ?
 */
 
-// const letters = ["a","b","c", {name:"Toto"}];
+const letters = ["a","b","c", {name:"Toto"}];
 
-// const lettersCopy = [...letters];
-// lettersCopy[3] = {...letters[3]};
+const lettersCopy = [...letters];
+lettersCopy[3] = {...letters[3]};
 
-// console.log(lettersCopy);
+console.log(lettersCopy);
 
-// letters[3].name = "Jim";
-// console.log(letters);
-// console.log(lettersCopy);
+letters[3].name = "Jim";
+console.log(letters);
+console.log(lettersCopy);
 
 
 
 
 /* 
     3. Faire une copie profonde, deep copy.
-
 
     A. On peut faire une copie profonde en copiant chaque niveau d'un objet "à la main".
 
@@ -51,7 +48,7 @@
 */
 
 
-// Superficiel (Shalow)
+// Superficiel (Shallow)
 const shalowObj = {
     userName: "Gaëtan",
     age: 40

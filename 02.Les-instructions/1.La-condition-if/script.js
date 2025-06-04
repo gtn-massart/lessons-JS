@@ -3,7 +3,7 @@
     
     Chaque valeur JavaScript est soit truthy soit falsy.
 
-    Comme moyen mnémotechnique pour vous aider à comprendre, on peut dire qu'une valeur truthy est une valeur qui 'existe' et qu'une valeur falsy est une valeur qui 'n'existe pas'.
+    Comme moyen mnémotechnique pour aider à comprendre, on peut dire qu'une valeur truthy est une valeur qui 'existe' et qu'une valeur falsy est une valeur qui 'n'existe pas'.
     
     Exemples de valeur truthy : true, "abc", 10, [1,2,3], -999, etc ...
 

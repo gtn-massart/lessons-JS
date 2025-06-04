@@ -56,7 +56,6 @@ console.log(typeof addition);
 
     Ces fonctions ont été rajoutées en 2015 en JavaScript.
     Elles ont une syntaxe plus courte et quelques différences avec les fonctions classiques.
-    Nous les analyserons en détail dans une section ultérieure.
 */
 
 const multiply = (a,b) => a * b;

@@ -8,7 +8,6 @@
 
 // codons une fonction .filter() personnalisée
 
-
 const salaries = [1200,5000,4000,2500,3450,1800]
 
 // ↓ Fonction d'ordre suppérieur

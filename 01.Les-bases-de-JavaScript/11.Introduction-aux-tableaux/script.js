@@ -8,7 +8,6 @@
     Ils ont été créé car ils sont très pratiques pour manipuler des listes de valeurs, notamment grâce aux méthodes qui sont associées à ces derniers.
 
     Les indices ou index, c'est à dire les positions qui servent à retrouver les éléments d'un tableau, commencent à zéro !
-    Cela porte à confusion quand on débute.
 
     const arr = ["a","b","c"]
     index         0   1   2
