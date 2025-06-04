@@ -7,7 +7,7 @@
     La boucle for...of. // méthode plus moderne (2015+)
     Les méthodes des tableaux (forEach, map, etc...). // méthodes classiques et pratiques
 
-    Vous verrez souvent certaines personnes dirent que les boucles sont plus performantes que .forEach(), 
+    On entend souvent certaines personnes dirent que les boucles sont plus performantes que .forEach(), 
     c'est vrai mais seulement notable quand on effectue des milliers d'opérations, ce qui est rarement le cas, mais pas impossible.
 
 */
@@ -26,9 +26,9 @@ for(const animal of animals) {
     console.log(animal);
 }
 
-/* Avec .forEach */
-
 //console.log(animals);
+
+/* Avec .forEach */
 
 animals.forEach((animal, index, array) => console.log(animal, index, array));
 

@@ -10,7 +10,7 @@
 
     Ex : const arr = [1,2,3]
 
-    Découvrons ensemble les principales méthodes des tableaux.
+    Découvrons les principales méthodes des tableaux.
 */
 
 /* 
@@ -37,7 +37,6 @@ console.log(numbers);
     2. Array.prototype.map(callback(element, index, array))
     
     Définition: Permet de retourner un nouveau tableau contenant les résultats du retour d'une fonction callback appelée sur chaque élément d'un tableau.
-
 
     Valeur de retour : un NOUVEAU TABLEAU contenant le retour de chaque appel de la fonction callback.
 

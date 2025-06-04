@@ -54,7 +54,6 @@ console.log(numbers_4);
     La propriété length.
 
     La propriété length est utilisée dans de nombreux cas.
-
 */
 
 // Connaître la longueur du tableau (nb d'éléments)
